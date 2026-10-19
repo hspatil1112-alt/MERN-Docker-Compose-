@@ -23,8 +23,7 @@ services:
     networks:
       - mern
     volumes:
-      - mongo-data:/data/db
-      -           
+      - mongo-data:/data/db         
 
   networks:
     mern:
