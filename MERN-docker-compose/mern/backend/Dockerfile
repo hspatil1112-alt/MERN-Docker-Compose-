@@ -2,9 +2,9 @@ FROM node:18.9.1
 
 WORKDIR /app
 
-COPY package.jason .
-
 COPY  . .
+
+COPY package.jason .
 
 RUN  npm install
 
